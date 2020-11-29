@@ -1,0 +1,82 @@
+﻿div.principalContent {
+    position: absolute;
+    border: solid 2px;
+    border-radius: 5px;
+    background: rgba(0,0,0,0.8);
+    color: gray;
+    left: 35%;
+    height: 400px;
+    width: 400px;
+}
+
+div.principalContent p {
+    position: absolute;
+    color: white;
+    margin-left: 5px;
+    margin-right: 10px;
+    text-align: justify;
+    text-indent: 10px;
+}
+
+div.LogCad {
+    background: rgba(0,0,0,0.6);
+    position: relative;
+    left: 6%;
+    height: 350px;
+    width: 350px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+input#ContentPlaceHolder1_txtEmail {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    left: 0%;
+    width: 240px;
+    height: 20px;
+}
+
+input#ContentPlaceHolder1_txtSenha {
+    position: relative;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    left: 0%;
+    width: 240px;
+    height: 20px;
+}
+
+input#ContentPlaceHolder1_btnEntrar {
+    position: relative;
+    margin-left: 85px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    width: 75px;
+}
+
+h1#Login {
+    padding: 10px;
+    position: relative;
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+}
+
+a#Sobre {
+    position: relative;
+    color: orange;
+    text-decoration: underline;
+    top: 40px;
+    left: -135px;
+}
+
+span#ContentPlaceHolder1_lblErro {
+    position: relative;
+    color: red;
+    left: 10px;
+    top: 40px;
+    font-size: 15px;
+}

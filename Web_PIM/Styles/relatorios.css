@@ -1,0 +1,159 @@
+﻿div.principalContent {
+    position: absolute;
+    border: solid 2px;
+    border-radius: 5px;
+    background: rgba(0,0,0,0.8);
+    color: gray;
+    left: 11%;
+    height: 1620px;
+    width: 1000px;
+    margin-bottom: 30px;
+}
+
+h1#titulo {
+    position: relative;
+    color: orange;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Report Bitcoin */
+
+h3#Report1 {
+    position: relative;
+    color: orange;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 20px;
+}
+
+p#pReport1 {
+    position: relative;
+    color: white;
+    left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img#imgReport1 {
+    position: relative;
+    left: 100px;
+    opacity: 0.85;
+}
+
+p#pFonte1 {
+    position: relative;
+    color: white;
+    left: 780px;
+    top: -10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a#Fonte1 {
+    position: relative;
+    color: skyblue;
+    left: 830px;
+    top: -44px;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Report Ethereum */
+
+h3#Report2 {
+    position: relative;
+    color: orange;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 20px;
+}
+
+p#pReport2 {
+    position: relative;
+    color: white;
+    left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img#imgReport2 {
+    position: relative;
+    left: 100px;
+}
+
+p#pFonte2 {
+    position: relative;
+    color: white;
+    left: 630px;
+    top: -10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a#Fonte2 {
+    position: relative;
+    color: skyblue;
+    left: 680px;
+    top: -44px;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Report Litecoin */
+
+h3#Report3 {
+    position: relative;
+    color: orange;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 20px;
+}
+
+p#pReport3 {
+    position: relative;
+    color: white;
+    left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img#imgReport3 {
+    position: relative;
+    left: 100px;
+}
+
+p#pFonte3 {
+    position: relative;
+    color: white;
+    left: 780px;
+    top: -10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a#Fonte3 {
+    position: relative;
+    color: skyblue;
+    left: 830px;
+    top: -44px;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Report Ripple */
+h3#Report4 {
+    position: relative;
+    color: orange;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 20px;
+}
+
+p#pReport4 {
+    position: relative;
+    color: white;
+    left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p#pReport4 a {
+    color: skyblue;
+    text-decoration: underline;
+}

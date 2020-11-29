@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteLogado.master.cs" Inherits="Web_PIM.SiteLogado" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        <%:Page.Title %>
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" type="text/css" href="Styles/styleLogado.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <header>
+                <div id="titulo">
+                    <h1><a href="_Home.aspx">PIM</a></h1>
+                    <h2><a href="_Home.aspx">Vendas e compras de criptomoedas</a></h2>
+                </div>
+                <div id="menu">
+                    <nav>
+                        <ul class="menuPrincipal">
+                            <li><a href="_Home.aspx">Home</a></li>
+                            <li><a href="_EditarDados.aspx">Editar Dados</a></li>
+                            <li><a href="_Relatorios.aspx">Relatórios</a></li>
+                            <li><a href="_Investir.aspx">Investir</a></li>
+                            <li><a href="_Carteira.aspx">Carteira</a></li>
+                            <li><a href="_Ajuda.aspx">Ajuda/Guia</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

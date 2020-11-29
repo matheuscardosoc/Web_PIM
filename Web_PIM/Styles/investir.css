@@ -1,0 +1,199 @@
+﻿div.principalContent {
+    position: absolute;
+    border: solid 2px;
+    border-radius: 5px;
+    background: rgba(0,0,0,0.8);
+    color: gray;
+    left: 11%;
+    height: 400px;
+    width: 1000px;
+}
+
+div.principalContent p {
+    position: absolute;
+    color: white;
+    margin-left: 5px;
+    margin-right: 10px;
+    text-align: justify;
+    text-indent: 10px;
+}
+
+div.Investir {
+    background: rgba(255, 188, 64, 0.4);
+    position: relative;
+    left: 4%;
+    height: 350px;
+    width: 540px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input#ContentPlaceHolder1_txtMoeda{
+    position: relative;
+    top: 85px;
+    left: 70px;
+}
+
+input#ContentPlaceHolder1_txtPreco {
+    position: relative;
+    top: 100px;
+    left: 70px;
+}
+
+p#Moeda{
+    top: 70px;
+}
+
+p#Preco{
+    top: 105px;
+    left: 6px;
+}
+
+p#Tipo{
+    top: 140px;
+    left: 16px;
+}
+
+p#Texto {
+    margin-left: 120px;
+    text-align: center;
+}
+
+#ContentPlaceHolder1_DropList{
+    position: absolute;
+    margin-top: 115px;
+    margin-left: 70px;
+    width: 176px;
+}
+
+input#ContentPlaceHolder1_btnSolicitarVenda {
+    position: relative;
+    top: 175px;
+    left: 65px;
+}
+
+/*2*/
+
+input#ContentPlaceHolder1_txtMoeda2 {
+    position: relative;
+    top: 24px;
+    left: 160px;
+}
+
+input#ContentPlaceHolder1_txtPreco2 {
+    position: relative;
+    top: 39px;
+    left: 342px;
+}
+
+p#Moeda2 {
+    top: 69px;
+    left: 270px;
+}
+
+p#Preco2 {
+    top: 104px;
+    left: 277px;
+}
+
+p#Tipo2 {
+    top: 139px;
+    left: 288px;
+}
+
+
+#ContentPlaceHolder1_DropList2 {
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 342px;
+    width: 176px;
+}
+
+input#ContentPlaceHolder1_btnSolicitarCompra {
+    position: relative;
+    top: 115px;
+    left: 327px;
+}
+
+#ContentPlaceHolder1_lnkAjuda1 {
+    position: relative;
+    top: 200px;
+    text-decoration: underline;
+    color: orange;
+}
+
+/*Saldo*/
+
+div.Saldo {
+    background: rgba(255, 188, 64, 0.4);
+    position: relative;
+    top: -92%;
+    left: 61%;
+    height: 150px;
+    width: 350px;
+    margin-top: 17px;
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p#Carteira {
+    left: 35%;
+    font-size: 22px;
+}
+
+p#TipoDaMoeda {
+    top: 84px;
+}
+
+#ContentPlaceHolder1_DropListSaldo {
+    position: relative;
+    top: 100px;
+    left: 127px;
+    width: 176px;
+}
+
+p#Saldo {
+    left: 62px;
+    top: 60px;
+}
+
+input#ContentPlaceHolder1_txtSaldo {
+    position: relative;
+    background-color: white;
+    border: none;
+    top: 75px;
+    left: 128px;
+    width: 170px;
+    color: black;
+}
+
+#ContentPlaceHolder1_lnkAjuda {
+    position: relative;
+    top: 120px;
+    left: -63px;
+    text-decoration: underline;
+    color: orange;
+}
+
+#ContentPlaceHolder1_lnkClick {
+    position: relative;
+    top: 200px;
+    left: 142px;
+    color: orange;
+    text-decoration: underline;
+}
+
+span#ContentPlaceHolder1_lblConfirmacao1 {
+    position: absolute;
+    top: 200px;
+    left: 28px;
+    color: orangered;
+}
+
+span#ContentPlaceHolder1_lblConfirmacao2 {
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    color: orangered;
+}

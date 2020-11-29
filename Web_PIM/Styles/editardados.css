@@ -1,0 +1,222 @@
+﻿div.principalContent {
+    position: absolute;
+    border: solid 2px;
+    border-radius: 5px;
+    background: rgba(0,0,0,0.8);
+    color: gray;
+    left: 11%;
+    height: 400px;
+    width: 1000px;
+}
+
+div.editarDados {
+    background: rgba(255, 188, 64, 0.4);
+    position: relative;
+    left: 4%;
+    height: 350px;
+    width: 925px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Primeira Coluna */
+h1#titulo {
+    position: relative;
+    text-align: center;
+    color: white;
+    top: 10px;
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+/* Nome */
+p#Nome {
+    position: relative;
+    color: white;
+    top: 20px;
+    left: 20px;
+}
+
+#ContentPlaceHolder1_txtNome {
+    position: relative;
+    top: -15px;
+    left: 70px;
+}
+
+#ContentPlaceHolder1_btnNome {
+    position: relative;
+    top: -15px;
+    left: 80px;
+    width: 65px;
+}
+
+/* Email */
+p#Email {
+    position: relative;
+    color: white;
+    top: 20px;
+    left: 20px;
+}
+
+#ContentPlaceHolder1_txtEmail {
+    position: relative;
+    top: -15px;
+    left: 70px;
+}
+
+#ContentPlaceHolder1_btnEmail {
+    position: relative;
+    top: -15px;
+    left: 80px;
+}
+
+/* Senha */
+p#Senha {
+    position: relative;
+    color: white;
+    top: 20px;
+    left: 16px;
+}
+
+#ContentPlaceHolder1_txtSenha {
+    position: relative;
+    top: -15px;
+    left: 70px;
+}
+
+#ContentPlaceHolder1_btnSenha {
+    position: relative;
+    top: -15px;
+    left: 80px;
+}
+
+
+/* Coluna 2 */
+
+/* CPF */
+p#CPF {
+    position: relative;
+    color: white;
+    top: -193px;
+    left: 600px;
+}
+
+#ContentPlaceHolder1_txtCPF {
+    position: relative;
+    top: -228px;
+    left: 640px;
+}
+
+#ContentPlaceHolder1_btnCPF {
+    position: relative;
+    top: -228px;
+    left: 650px;
+}
+
+/* Telefone */
+p#Telefone {
+    position: relative;
+    color: white;
+    top: -193px;
+    left: 570px;
+}
+
+#ContentPlaceHolder1_txtTelefone {
+    position: relative;
+    top: -228px;
+    left: 640px;
+}
+
+#ContentPlaceHolder1_btnTelefone {
+    position: relative;
+    top: -228px;
+    left: 650px;
+    width: 65px;
+}
+
+/* Data de Nascimento */
+p#DataNascimento {
+    position: relative;
+    color: white;
+    top: -192px;
+    left: 488px;
+}
+
+#ContentPlaceHolder1_txtDataNascimento {
+    position: relative;
+    top: -230px;
+    left: 642px;
+    width: 170px;
+}
+
+#ContentPlaceHolder1_btnDataNascimento {
+    position: relative;
+    top: -229px;
+    left: 653px;
+}
+
+/* Carteira */
+p#Carteira {
+    position: relative;
+    color: white;
+    top: -180px;
+    left: 290px;
+}
+
+#ContentPlaceHolder1_txtCarteira {
+    position: relative;
+    top: -215px;
+    left: 357px;
+}
+
+#ContentPlaceHolder1_btnCarteira {
+    position: relative;
+    top: -215px;
+    left: 367px;
+}
+
+#ContentPlaceHolder1_lnkAjuda {
+    position: relative;
+    color: orange;
+    text-decoration: underline;
+    top: -180px;
+    left: 145px;
+}
+
+/* Label's */
+
+span#ContentPlaceHolder1_lblNome {
+    position: relative;
+    color: lightgray;
+    left: 20px;
+    top: 25px;
+}
+
+span#ContentPlaceHolder1_lblEmail {
+    position: relative;
+    color: lightgray;
+    left: -230px;
+    top: 30px;
+}
+
+span#ContentPlaceHolder1_lblCPF {
+    position: relative;
+    color: lightgray;
+    left: 352px;
+    top: -180px;
+}
+
+span#ContentPlaceHolder1_lblTelefone {
+    position: relative;
+    color: lightgray;
+    left: 352px;
+    top: -180px;
+}
+
+span#ContentPlaceHolder1_lblDataNascimento {
+    position: relative;
+    color: lightgray;
+    left: 352px;
+    top: -180px;
+}

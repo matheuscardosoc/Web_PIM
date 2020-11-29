@@ -1,0 +1,182 @@
+﻿div.principalContent {
+    position: absolute;
+    border: solid 2px;
+    border-radius: 5px;
+    background: rgba(0,0,0,0.8);
+    color: gray;
+    left: 11%;
+    height: 400px;
+    width: 1000px;
+}
+
+div.SaqDep {
+    background: rgba(255, 188, 64, 0.4);
+    position: relative;
+    left: 4%;
+    height: 350px;
+    width: 540px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div.Saldo {
+    background: rgba(255, 188, 64, 0.4);
+    position: relative;
+    top: -92%;
+    left: 61%;
+    height: 150px;
+    width: 350px;
+    margin-top: 17px;
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*Saque/Depósito*/
+
+p#Saq{
+    position: relative;
+    top: 10px;
+    font-size: 22px;
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+}
+
+p#Saque {
+    position: relative;
+    top: 10px;
+    left: 110px;
+    color: white;
+}
+
+p#TipoMoeda {
+    position: relative;
+    top: 10px;
+    left: 120px;
+    color: white;
+}
+
+#ContentPlaceHolder1_txtSaque {
+    position: relative;
+    left: 50px;
+    top: -58px;
+    width: 175px;
+}
+
+#ContentPlaceHolder1_txtEscolha {
+    position: relative;
+    left: 237px;
+    top: -25px;
+    width: 175px;
+}
+
+input#ContentPlaceHolder1_btnSaque {
+    position: relative;
+    top: 10px;
+    left: -60px;
+}
+
+p#Deposito {
+    position: relative;
+    color: white;
+    top: 10px;
+    left: 80px;
+}
+
+#ContentPlaceHolder1_txtDeposito {
+    position: relative;
+    left: 44px;
+    top: -60px;
+    width: 175px;
+}
+
+#ContentPlaceHolder1_txtEscolha2 {
+    position: relative;
+    left: 230px;
+    top: -30px;
+    width: 175px;
+}
+
+p#TipoMoeda2{
+    position: relative;
+    top: 5px;
+    left: 117px;
+    color: white;
+}
+
+p#Dep {
+    position: relative;
+    top: 10px;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+#ContentPlaceHolder1_btnDeposito {
+    position: relative;
+    top: 3px;
+    left: -83px;
+}
+
+#ContentPlaceHolder1_lnkAjuda1{
+    position: relative;
+    top: 500px;
+    left: -50px;
+}
+
+/* Saldo */
+
+p#Sal {
+    position: relative;
+    color: white;
+    top: 0px;
+    text-align: center;
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+p#Saldo {
+    position: relative;
+    color: white;
+    top: -30px;
+    left: 32px;
+}
+
+p#TipoMoeda3 {
+    position: relative;
+    color: white;
+    top: 0px;
+    left: 10px;
+    width: 110px;
+}
+
+#ContentPlaceHolder1_txtSaldo {
+    position: relative;
+    border: none;
+    background-color: white;
+    top: -65px;
+    left: 131px;
+    width: 175px;
+}
+
+#ContentPlaceHolder1_txtEscolha3 {
+    position: relative;
+    top: -35px;
+    left: 129px;
+    width: 175px;
+}
+
+#ContentPlaceHolder1_lnkAjuda2 {
+    position: absolute;
+    color: orange;
+    left: 113px;
+    top: 120px;
+}
+
+#ContentPlaceHolder1_btnAtualizar {
+    position: relative;
+    left: 80px;
+    top: -32px;
+}

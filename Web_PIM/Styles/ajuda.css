@@ -1,0 +1,45 @@
+﻿div.principalContent {
+    position: absolute;
+    border: solid 2px;
+    border-radius: 5px;
+    background: rgba(0,0,0,0.8);
+    color: gray;
+    left: 11%;
+    height: 2200px;
+    width: 1000px;
+    margin-bottom: 30px;
+}
+
+h1#titulo {
+    position: relative;
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img {
+    position: relative;
+    opacity: 1;
+    border: solid;
+    border-color: red;
+    width: 800px;
+    left: 50px;
+}
+
+p {
+    color: white;
+    text-indent: 10px;
+    text-align: justify;
+    margin-left: 5px;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="PIM">
+  <DataContextMoniker Name="/PIMDataContext" />
+  <nestedChildShapes>
+    <classShape Id="b7522a12-0671-4909-9e57-28d00a58167f" absoluteBounds="2.125, 1, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/PIMDataContext/tabCarteira" />
+      <nestedChildShapes>
+        <elementListCompartment Id="aecaa9d8-1b80-4f0d-b70e-3278b23b0fa1" absoluteBounds="2.14, 1.46, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8da2ae35-cde6-4aab-9152-ede40ace7cf4" absoluteBounds="6.625, 1.125, 2, 1.3862939453125">
+      <DataClassMoniker Name="/PIMDataContext/tabMoedas" />
+      <nestedChildShapes>
+        <elementListCompartment Id="29fdf4bc-56dd-4213-b6bf-bcbf7747e40f" absoluteBounds="6.64, 1.585, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6.625 : 1.81814697265625); (4.125 : 1.81814697265625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/PIMDataContext/tabMoedas/tabMoedas_tabCarteira" />
+      <nodes>
+        <classShapeMoniker Id="8da2ae35-cde6-4aab-9152-ede40ace7cf4" />
+        <classShapeMoniker Id="b7522a12-0671-4909-9e57-28d00a58167f" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="9144c387-e83d-4a78-9ea6-6b3b8aa5b99c" absoluteBounds="6.625, 3.25, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/PIMDataContext/tabUser" />
+      <nestedChildShapes>
+        <elementListCompartment Id="20b7bca5-42f7-42e8-823d-d8ef03338419" absoluteBounds="6.64, 3.71, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6.625 : 4.32774983723958); (3.125 : 4.32774983723958); (3.125 : 2.77089680989583)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/PIMDataContext/tabUser/tabUser_tabCarteira" />
+      <nodes>
+        <classShapeMoniker Id="9144c387-e83d-4a78-9ea6-6b3b8aa5b99c" />
+        <classShapeMoniker Id="b7522a12-0671-4909-9e57-28d00a58167f" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

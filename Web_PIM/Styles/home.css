@@ -1,0 +1,46 @@
+﻿div.principalContent {
+    position: absolute;
+    border: solid 2px;
+    border-radius: 5px;
+    background: rgba(0,0,0,0.9);
+    color: gray;
+    width: 1000px;
+    left: 11%;
+}
+
+div.principalContent p {
+    color: white;
+    margin-left: 5px;
+    margin-right: 10px;
+    text-align: justify;
+    text-indent: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input#ContentPlaceHolder1_btnEnviar {
+    position: relative;
+    background: transparent;
+    border: none;
+    color: transparent;
+    font-size: 20px;
+    height: 50px;
+    width: 210px;
+    left: 210px;
+    top: -192px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input#ContentPlaceHolder1_btnEnviar:hover {
+    color: white;
+    background-color: darkgrey;
+    color: #313131;
+    cursor: pointer;
+}
+
+img {
+    border: solid;
+    border-color: red;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    width: 900px;
+}
